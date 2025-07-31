@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+}
+td, th {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: center;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.cell-unavailable {
+  background-color: gray;
+}
+#legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;       
+  background-color: #f9f9f9; 
+  max-width: fit-content;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
