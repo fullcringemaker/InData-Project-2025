@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RTT Heatmap</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="heatmap.js" defer></script>
+</head>
+<body>
+  <h1>RTT Heatmap</h1>
+  <label for="resourceType">Тип ресурса:</label>
+  <select id="resourceType">
+    <option value="http">HTTP</option>
+    <option value="kdig">DNS</option>
+  </select>
+  <div id="heatmap"></div>
+  <div id="legend"></div>
+</body>
+</html>
